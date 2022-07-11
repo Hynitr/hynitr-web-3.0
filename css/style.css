@@ -9,3 +9,7 @@ body {
 .card-text {
     color: rgb(144, 142, 150);
 }
+
+.btn:hover {
+    background: #1b3a4c;
+}
