@@ -1,6 +1,22 @@
 body {
     font-family: "Questrial", sans-serif;
 }
+.navbar{
+    background-color: #1b3a4c !important;
+    
+}
+
+.nav-link {
+    margin-left: 20px !important;
+    color: white !important;
+    font-size: 16px;
+    
+
+}
+.email-marketing a.btn {
+    background-color: #1b3a4c !important;
+    color: white !important;
+}
 
 .card-title {
     color: #1b3a4c;
