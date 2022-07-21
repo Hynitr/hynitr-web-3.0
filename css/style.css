@@ -17,6 +17,10 @@ body {
     color: white !important;
 }
 
+#cta {
+    background-color: rgb(162, 190, 211);
+}
+
 .card-title {
     color: #1b3a4c;
 }
@@ -27,4 +31,11 @@ body {
 
 .btn:hover {
     background: #1b3a4c;
+}
+
+
+.cta:hover {
+    font-weight: 700;
+    color: #1b3a4c;
+    background: #fff;
 }
