@@ -51,7 +51,7 @@ p{
 }
 
 body {
-  margin: 0;
+  margin: 8px !important;
   font-family: "Questrial", sans-serif;
   background-color: #f3f5f9;
 }
@@ -72,13 +72,72 @@ body {
 
 
 
+/********** RESPONSIVENESS **********/
+
+/* For 480 Resolution - Laptop*/  
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 480px)  
+{ /* STYLES GO HERE */}  
+
+
+/* For 640 Resolution - mobile */  
+@media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 640px)  
+{
+
+    .img-header {
+
+        max-width: 100%;
+        height: auto;
+    }
+
+    .home-title {
+
+        font-size: calc(2.575rem + 2.9vw);
+    }
+}  
+
+
+/* For 1024 Resolution - laptop 1 */  
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px)  
+{ /* STYLES GO HERE */}  
+
+
+/* For 1366 Resolution  -- laptop 2*/  
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  
+{ /* STYLES GO HERE */} 
+
+
+/** desktop screen */
+@media only screen   
+and (min-width: 1370px)  
+and (max-width: 1605px)  
+{ /* STYLES GO HERE */}  
+
+
+/*Ipad Orientation : Landscape */  
+@media only screen   
+and (orientation : landscape)   
+and (-webkit-min-device-pixel-ratio: 1)  
+and (min-device-width : 768px)   
+and (max-device-width : 1007px)   
+{ /* STYLES GO HERE */}
 
 
 
-
-
-
-
+/*ipad Orientation : Portrait */  
+@media only screen   
+and (orientation : portrait)   
+and (-webkit-min-device-pixel-ratio: 1)   
+and (min-device-width : 768px)   
+and (max-device-width : 1007px)  
+{ /* STYLES GO HERE */}  
 
 
 /**
