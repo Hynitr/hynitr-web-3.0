@@ -73,7 +73,7 @@ body {
 .img-header {
 
     mix-blend-mode: darken;
-    max-width: 110% !important;
+    max-width: 105% !important;
 
 }
 
@@ -138,6 +138,11 @@ and (max-device-width : 640px)
     #home {
 
       padding-top: 0.5rem !important;
+    }
+
+    #about {
+
+      padding-top: 0rem !important;
     }
 }  
 
