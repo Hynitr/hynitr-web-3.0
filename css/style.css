@@ -4,33 +4,33 @@
 
 @font-face {
     font-family: hynitrfont;
-    src: url(../font/Madani/Madani\ Arabic\ SemiBold\ 400.ttf);
+    src: url(../font/Questrial-Regular.ttf);
     font-weight: bold;
   }
 
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     box-sizing: border-box;
 }
 
-::-webkit-scrollbar {
+::scrollbar {
   width: 10px;
 }
 
 /* Track */
-::-webkit-scrollbar-track {
+::scrollbar-track {
   background: #f1f1f1; 
 }
  
 /* Handle */
-::-webkit-scrollbar-thumb {
+::scrollbar-thumb {
   background: #eee; 
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+::scrollbar-thumb:hover {
   background: #555; 
 }
 
@@ -45,15 +45,16 @@ ul ,li {
   padding:0;
 }
 
-p{
+p {
     margin-top: 0;
     margin-bottom: 0;
+    font-family: hynitrfont;
 }
 
 body {
   margin: 8px !important;
   font-family: "Questrial", sans-serif;
-  background-color: #f3f5f9;
+  background-color: #e8e7ee;
 }
 
 
@@ -69,8 +70,44 @@ body {
     color: #114667 !important;
 }
 
+.img-header {
+
+    mix-blend-mode: darken;
+    max-width: 110% !important;
+
+}
+
+.headerbtn1 {
+
+  outline: black;
+  border: 1px solid #114667 !important;
+  font-size: 20px;
+  background-color: #2f4b9b;
+  color: white;
+  border-radius: 10px;
+}
+
+.headerbtn1:hover {
+
+  background-color: transparent;
+}
 
 
+.headerbtn2 {
+
+  border: 1px solid #2f4b9b !important;
+  font-size: 20px;
+  background-color: transparent;
+  color: black;
+  border-radius: 10px;
+}
+
+
+.headerbtn2:hover {
+
+  background-color: #2f4b9b;
+  color: white;
+}
 
 /********** RESPONSIVENESS **********/
 
@@ -96,6 +133,11 @@ and (max-device-width : 640px)
     .home-title {
 
         font-size: calc(2.575rem + 2.9vw);
+    }
+
+    #home {
+
+      padding-top: 0.5rem !important;
     }
 }  
 
@@ -124,7 +166,7 @@ and (max-width: 1605px)
 /*Ipad Orientation : Landscape */  
 @media only screen   
 and (orientation : landscape)   
-and (-webkit-min-device-pixel-ratio: 1)  
+and (min-device-pixel-ratio: 1)  
 and (min-device-width : 768px)   
 and (max-device-width : 1007px)   
 { /* STYLES GO HERE */}
@@ -134,7 +176,7 @@ and (max-device-width : 1007px)
 /*ipad Orientation : Portrait */  
 @media only screen   
 and (orientation : portrait)   
-and (-webkit-min-device-pixel-ratio: 1)   
+and (min-device-pixel-ratio: 1)   
 and (min-device-width : 768px)   
 and (max-device-width : 1007px)  
 { /* STYLES GO HERE */}  
