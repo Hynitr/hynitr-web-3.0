@@ -13,6 +13,8 @@
 *::after {
     box-sizing: border-box;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.5s ease-in;
 }
 
 ::scrollbar {
@@ -74,6 +76,13 @@ body {
 
     mix-blend-mode: darken;
     max-width: 105% !important;
+
+}
+
+.abtimg {
+
+  mix-blend-mode: darken;
+  max-width: 125% !important;
 
 }
 
@@ -144,6 +153,13 @@ and (max-device-width : 640px)
 
       padding-top: 0rem !important;
     }
+
+    .featured {
+
+      margin-bottom: 2rem!important;
+    }
+
+
 }  
 
 
