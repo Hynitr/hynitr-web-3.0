@@ -73,7 +73,53 @@
 
 <body>
 
-
+    <!--------navigation start---------------->
+<nav class="navbar  navbar-expand-xl navbar-dark fixed-top shadow">
+    <div class="container">
+      <a href="#" class="navbar-brand fw-bold"> 
+          <img src="/img/logo.png" style="height: 40px; width: 40px; border-radius: 30px;">  </a>
+      <a class="navbar-toggler" type="button"
+        data-bs-toggle="offcanvas" 
+        data-bs-target="#navbarOffcanvas"
+        aria-controls="navbarOffcanvas"
+        aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+    </a>
+      <div class="offcanvas offcanvas-start " id="navbarOffcanvas"
+          tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-dark" id="offcanvasNavbarLabel">
+                <a href="#" class="navbar-brand fw-bold"> 
+              <img src="/img/logo.png" style="height: 40px; width: 40px; border-radius: 30px;">  </a></h5>
+            <button type="button" class="btn-close btn-close-black " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">          
+            <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <a class="nav-item nav-link active " aria-current="page" href="#">Home</a>
+              <a class="nav-item nav-link " href="#about">About</a>
+              
+              <div class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                      Projects done
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Past clients</a></li>
+                      <li><a class="dropdown-item" href="#">Our Softwares</a></li>
+                  </ul>
+              </div>
+              <a class="nav-item nav-link" href="#">Services</a>
+              <a class="nav-item nav-link" href="#">Contact</a>
+            </div>
+          </div>
+      </div>  
+    </div>
+  </nav>
+  <!----------------navigation ends------------------>
+  
+  
     <!--- landing page -->
    <section id="home" class="mt-5 pt-5">
     <div class="container">
@@ -219,6 +265,84 @@
         </div>
     </div>
    </section>
+
+   <section id="testimonials">
+       
+        
+    <div class="container  my-5 py-5 shadow text-center testimonials">
+        <h2>What Our Client Says</h2>
+        
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-inner " >
+
+              <div class="carousel-item active">
+                <div class="items">
+                    <img src="/img/testimonial.png"  alt="..." class="shadow mt-4">
+                    <h4 class="mt-4 ">Akorede Rose</h4>
+                    <p class="lead">web developer</p>
+                    <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iusto dolorum corrupti hic cupiditate deserunt eius? Ducimus, reiciendis, modi rerum quia quos blanditiis eveniet alias nostrum nesciunt et assumenda est!</q>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="items">
+                    <img src="/img/testimonial.png"  alt="..." class="shadow">
+                    <h4 class="mt-4 ">Akorede Rose</h4>
+                    <p class="lead">web developer</p>
+                    <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iusto dolorum corrupti hic cupiditate deserunt eius? Ducimus, reiciendis, modi rerum quia quos blanditiis eveniet alias nostrum nesciunt et assumenda est!</q>
+              </div>
+            </div>
+
+            <div class="carousel-item ">
+                <div class="items">
+                    <img src="/img/testimonial.png"  alt="..." class="shadow">
+                    <h4 class="mt-4 ">Akorede Rose</h4>
+                    <p class="lead">web developer</p>
+                    <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iusto dolorum corrupti hic cupiditate deserunt eius? Ducimus, reiciendis, modi rerum quia quos blanditiis eveniet alias nostrum nesciunt et assumenda est!</q>
+              </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+          </div>
+    </div>
+   
+</section>
 
 </body>
 
