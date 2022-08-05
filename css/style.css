@@ -126,51 +126,6 @@ button.btn-close{
 .nav-link{
   color: #114667 !important;
 }
-.testimonials{
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
-  background-color: white !important;
-  color: #114667 !important;
-  
-}
-.carousel-indicators{
-  position: relative;
-  margin-top: 1.5rem;
-}
-.carousel-indicators [data-bs-target] {
-  background-color: #114667 !important;
-  border-radius: 100%;
-  width: 10px;
-  height: 10px;
-}
-.carousel-control-prev, .carousel-control-next  {
-  color: #114667 !important;
-}
-.items{
-  max-width: 800px;
-  margin: auto;
-
-}
-.items img{
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 100%;
-}
-.stars{
-  margin-bottom: 1.5rem;
-}
-.stars i{
-  color: red !important;
-  font-size: 1.5rem;
-  padding: 0.5rem;
-}
-.items q{
-  margin-top: 1.5rem;
-  font-size: 1.2rem;
-}
-
 #home {
 
     width: 100%;
@@ -187,14 +142,12 @@ button.btn-close{
 
     mix-blend-mode: darken;
     max-width: 105% !important;
-
 }
 
 .abtimg {
 
   mix-blend-mode: darken;
   max-width: 125% !important;
-
 }
 
 .headerbtn1 {
@@ -204,29 +157,81 @@ button.btn-close{
   font-size: 20px;
   background-color: #2f4b9b;
   color: white;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .headerbtn1:hover {
-
+  
   background-color: transparent;
 }
 
-
 .headerbtn2 {
-
   border: 1px solid #2f4b9b !important;
   font-size: 20px;
   background-color: transparent;
   color: black;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
-
 .headerbtn2:hover {
+  background-color: #2f4b9b !important;
+  color: white !important;
+}
 
-  background-color: #2f4b9b;
-  color: white;
+.card{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
+  border-radius: 10px !important;
+}
+
+.testimonials{
+  border-radius: 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
+  background-color: white !important; */
+  color: #333 !important;
+}
+
+.carousel-indicators{
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #114667 !important;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-control-prev, .carousel-control-next  {
+  color: #114667 !important;
+}
+
+.items{
+  max-width: 800px;
+  margin: auto;
+}
+
+.items img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 100%;
+}
+
+.stars{
+  margin-bottom: 1.5rem;
+}
+
+.stars i{
+  color: red !important;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.items q{
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
 }
 
 /********** RESPONSIVENESS **********/
