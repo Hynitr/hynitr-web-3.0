@@ -67,16 +67,16 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-
+    
 </head>
 
 <body>
 
-    <!--------navigation start---------------->
-<nav class="navbar  navbar-expand-xl navbar-dark fixed-top shadow">
+    <!--------NAVIGATION START---------------->
+<nav class="navbar  navbar-expand-xl navbar-dark fixed-top ">
     <div class="container">
       <a href="#" class="navbar-brand fw-bold"> 
-          <img src="/img/logo.png" style="height: 40px; width: 40px; border-radius: 30px;">  </a>
+          <img src="img/logo.png" style="height: 40px; width: 40px; border-radius: 30px;">  </a>
       <a class="navbar-toggler" type="button"
         data-bs-toggle="offcanvas" 
         data-bs-target="#navbarOffcanvas"
@@ -91,7 +91,7 @@
           <div class="offcanvas-header">
             <h5 class="offcanvas-title text-dark" id="offcanvasNavbarLabel">
                 <a href="#" class="navbar-brand fw-bold"> 
-              <img src="/img/logo.png" style="height: 40px; width: 40px; border-radius: 30px;">  </a></h5>
+              <img src="img/logo.png" style="height: 40px; width: 40px; border-radius: 30px;">  </a></h5>
             <button type="button" class="btn-close btn-close-black " data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">          
@@ -116,10 +116,10 @@
       </div>  
     </div>
   </nav>
-  <!----------------navigation ends------------------>
+  <!----------------NAVIGATION ENDS------------------>
   
   
-    <!--- landing page -->
+    <!------------------LANDING PAGE------------------ -->
    <section id="home" class="mt-5 pt-5">
     <div class="container">
         <div class="row">
@@ -164,7 +164,10 @@
         </div>
    
    </div>
+   <!-----------------LANDING PAGE ENDS------------------------------>
 
+
+<!-----------------------ABOUT ------------------------------>
    <section id="about" class="mt-5 pt-5">
     <div class="container">
         <div class="row">
@@ -264,11 +267,14 @@
         </div>
     </div>
    </section>
+   <!-------------------------ABOUT END------------------------------>
 
+
+<!----------------------TESTIMONIALS------------------------------>
    <section id="testimonials">
        
         
-    <div class="container  my-5 py-5  text-center testimonials">
+    <div class="container  p-5  text-center testimonials">
         <h2>What Our Client Says</h2>
         
         
@@ -342,14 +348,75 @@
     </div>
    
 </section>
+<!--------------------TESTIMONIALS END------------------------------>
+
+
+<!---------------------CONTACT--------------------------->
+<section class="contact-us-section relative" id="contactUs">
+    
+    <div class="contact-cont container">
+      <h3 class="text-center">Contact Us</h3>
+      <h2 class="heading-secondary text-center">
+        Let's create something <br />
+        awesome together
+      </h2>
+
+        <div class="col-lg-12 col-md-12 ">
+            <div class="row d-flex justify-content-center">
+      
+      <form action="#" class="contact-form-cont">
+        <div class="form-grid ">
+            
+          <div>
+            <div class="relative">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="Full name" required />
+            </div>
+
+            <div class="relative">
+              <label for="email">E-Mail</label>
+              <input type="email" id="email" placeholder="Yourname@gmail.com" required />
+            </div>
+
+            <div class="relative">
+              <label for="phone">Phone</label>
+              <input type="number" id="phone" placeholder="Your number" required />
+            </div>
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="14" placeholder="Your Message" required></textarea>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="contact-btn btn">Send Message</button>
+        </div>
+      
+      </form>
+    </div>
+    </div>
+    </div>
+
+  </section>
+
+  
+  <!---------------------CONTACT END------------------------------------->
+
+  
 
 </body>
 
+<script src="js/jquery.min.map.js"></script>
+<script src="js/index.js"></script>
 <script src=" js/jquery.min.js "></script>
 <script src=" js/bootstrap.min.js "></script>
 <script src=" js/popper.min.js "></script>
 <script src=" js/fontawesome.min.js "></script>
 <script src="js/typed.js"></script>
+
+
 <script>
 var typed = new Typed('.typed-words', {
     strings: ["&nbsp;Growth & Sales&nbsp;", "&nbsp;Visual Identity&nbsp;", "&nbsp;Development&nbsp;", "&nbsp;Automation&nbsp; "],

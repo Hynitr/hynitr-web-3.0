@@ -185,8 +185,6 @@ button.btn-close{
 
 .testimonials{
   border-radius: 10px;
-  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
-  background-color: white !important; */
   color: #333 !important;
 }
 
@@ -232,6 +230,54 @@ button.btn-close{
   margin-top: 1.5rem;
   font-size: 1.2rem;
 }
+/* ******************************** */
+/* CONTACT-US SECTION */
+/* ******************************** */
+
+.contact-us-section {
+  padding: 4rem 0;
+  
+}
+
+.contact-form-cont {
+  background-color: #ffffff;
+  padding: 2rem 5rem 3rem 5rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 0.8rem;
+  
+}
+.form-grid input,
+.form-grid textarea {
+  border: none;
+  border-radius: 0.8rem;
+  background-color: #eef1fb;
+  padding: 1.2rem 1.5rem 1.2rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.form-grid input::placeholder,
+.form-grid textarea::placeholder {
+  color: #b8c4ce;
+}
+
+.form-grid textarea {
+  padding: 1.2rem;
+  line-height: 1.5;
+  resize: none;
+}
+
+.contact-btn {
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #2f4b9b !important;
+  color:#e8e7ee !important;
+  border: none !important;
+}
+
 
 /********** RESPONSIVENESS **********/
 
@@ -273,7 +319,12 @@ and (max-device-width : 640px)
 
       margin-bottom: 2rem!important;
     }
-
+    .contact-form-cont {
+      background-color: #ffffff;
+      padding: 30px;
+      box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+      border-radius: 0.8rem;
+    }    
 
 }  
 
