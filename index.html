@@ -303,6 +303,7 @@
               target="_blank"
               href="https://chat.whatsapp.com/E2fMPENeIsPBogac1PADkC"
               class="btn col-7 mt-3 mb-4 headerbtn1 me-4"
+              id="community"
               >Join our community</a
             >
           </div>
@@ -638,62 +639,13 @@
     </section>
     <!---------------------CONTACT END------------------------------------->
     <!-- Footer -->
-    <footer class="text-center text-lg-start bg-light text-muted">
-      <!-- Section: Social media -->
-      <section
-        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-      >
-        <!-- Left -->
-        <div class="me-5 d-none d-lg-block">
-          <span>Get connected with us on social networks:</span>
-        </div>
-        <!-- Left -->
-
-        <!-- Right -->
-        <div>
-          <a
-            href="https://facebook.com/wearehynitr"
-            target="_blank"
-            class="me-4 text-reset"
-          >
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a
-            href="https://twitter.com/wearehynitr"
-            target="_blank"
-            class="me-4 text-reset"
-          >
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a
-            href="https://youtube.com/channel/UC-GaCUKq9pagdNXdZ5zp8rw"
-            target="_blank"
-            class="me-4 text-reset"
-          >
-            <i class="fab fa-youtube"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/wearehynitr/?igshid=YmMyMTA2M2Y%3D"
-            target="_blank"
-            class="me-4 text-reset"
-          >
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/company/hynitr"
-            target="_blank"
-            class="me-4 text-reset"
-          >
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </div>
-        <!-- Right -->
-      </section>
-      <!-- Section: Social media -->
-
+    <footer
+      class="text-center text-lg-start bg-light text-muted p-4"
+      style="border-radius: 10px"
+    >
       <!-- Section: Links  -->
       <section class="">
-        <div class="container text-center text-md-start mt-5">
+        <div class="container text-center text-md-start">
           <!-- Grid row -->
           <div class="row mt-3">
             <!-- Grid column -->
@@ -705,9 +657,8 @@
                 <i class="fas fa-gem me-3"></i>Hynitr
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+                From Design, Strategy, Marketing, Development and Automation, We
+                help business generate more sales and online confidence.
               </p>
             </div>
             <!-- Grid column -->
@@ -740,10 +691,10 @@
               <!-- Links -->
               <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
               <p>
-                <a href="#!" class="text-reset">Pricing</a>
+                <a href="#" class="text-reset">Home</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Settings</a>
+                <a href="#community" class="text-reset">Community</a>
               </p>
               <p>
                 <a href="#!" class="text-reset">Orders</a>
@@ -772,14 +723,82 @@
       </section>
       <!-- Section: Links  -->
 
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a
+            href="https://facebook.com/wearehynitr"
+            target="_blank"
+            class="me-4 text-reset text-decoration-none"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://twitter.com/wearehynitr"
+            target="_blank"
+            class="me-4 text-reset text-decoration-none"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a
+            href="https://youtube.com/channel/UC-GaCUKq9pagdNXdZ5zp8rw"
+            target="_blank"
+            class="me-4 text-reset text-decoration-none"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/wearehynitr/?igshid=YmMyMTA2M2Y%3D"
+            target="_blank"
+            class="me-4 text-reset text-decoration-none"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/hynitr"
+            target="_blank"
+            class="me-4 text-reset text-decoration-none"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://www.github.com/hynitr"
+            target="_blank"
+            class="me-4 text-reset text-decoration-none"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
       <!-- Copyright -->
       <div
+        id="copyright"
         class="text-center p-4"
-        style="background-color: rgba(0, 0, 0, 0.05)"
-      >
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://hynitr.com">Hynitr</a>
-      </div>
+        style="background-color: rgba(0, 0, 0, 0.05); border-radius: 10px"
+      ></div>
+
+      <script>
+        const copyright = `
+        <p>
+           &copy; ${new Date().getFullYear()} Copyright: <a class="text-reset fw-bold " target="_blank" href="https://hynitr.com"> Hynitr</a>
+        </p>
+        `;
+
+        document.getElementById("copyright").innerHTML = copyright;
+      </script>
+
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
