@@ -143,7 +143,6 @@ button.btn-close{
     mix-blend-mode: darken;
     max-width: 105% !important;
 }
-
 .abtimg {
 
   mix-blend-mode: darken;
@@ -216,16 +215,6 @@ button.btn-close{
   border-radius: 100%;
 }
 
-.stars{
-  margin-bottom: 1.5rem;
-}
-
-.stars i{
-  color: red !important;
-  font-size: 1.2rem;
-  padding: 0.5rem;
-}
-
 .items q{
   margin-top: 1.5rem;
   font-size: 1.2rem;
@@ -240,9 +229,7 @@ button.btn-close{
 }
 
 .contact-form-cont {
-  background-color: #ffffff;
   padding: 2rem 5rem 3rem 5rem;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 0.8rem;
   
 }
@@ -276,8 +263,15 @@ button.btn-close{
   background-color: #2f4b9b !important;
   color:#e8e7ee !important;
   border: none !important;
+  width: 150px !important;
+  height: 50px !important;
 }
-
+.modal-content{
+  background-color: white !important;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
+  border-radius: 10px;
+  width: 2000px  !important;
+}
 
 /********** RESPONSIVENESS **********/
 
@@ -318,6 +312,9 @@ and (max-device-width : 640px)
     .featured {
 
       margin-bottom: 2rem!important;
+    }
+    .trusted{
+      margin-top: 400px !important;
     }
     .contact-form-cont {
       background-color: #ffffff;
