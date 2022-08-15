@@ -72,7 +72,8 @@ section {
 }
 .navbar-brand{
   color: #114667 !important;
-  font-size: 10px !important;
+  font-size: 20px !important;
+  letter-spacing: 1px !important;
 }
 .dropdown-menu{
   background-color: #e8e7ee !important;
