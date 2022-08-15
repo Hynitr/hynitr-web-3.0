@@ -8,7 +8,8 @@ $(document).ready(function(){
         }
        
         else{
-            $("nav.navbar").css("background" , "#e8e7ee");  	
+            $("nav.navbar").css("background" , "#e8e7ee");  
+            $(".navbar").css( "box-shadow" , "none");	
         }
     })
   })
