@@ -55,17 +55,18 @@ p {
 
 body {
   font-family: "Nunito", sans-serif;
-  background-color: #e8e7ee;
+  background-color: #ffffff;
 }
 
 section {
   margin: 0px;
 }
+
 .navbar {
-  background-color: #e8e7ee !important;
+  background-color: #ffffff !important;
 }
 .offcanvas {
-  background-color: #e8e7ee !important;
+  background-color: #ffffff !important;
 }
 .navbar-brand {
   color: #114667 !important;
@@ -73,7 +74,7 @@ section {
   letter-spacing: 1px !important;
 }
 .dropdown-menu {
-  background-color: #e8e7ee !important;
+  background-color: #ffffff !important;
   border: none !important;
 }
 span .navbar-toggler-icon {
@@ -135,10 +136,6 @@ button.btn-close {
 .img-header {
   mix-blend-mode: darken;
   max-width: 105% !important;
-}
-.abtimg {
-  mix-blend-mode: darken;
-  max-width: 125% !important;
 }
 
 .headerbtn1 {
@@ -206,17 +203,6 @@ button.btn-close {
   border-radius: 100%;
 }
 
-
-.stars {
-  margin-bottom: 1.5rem;
-}
-
-.stars i {
-  color: red !important;
-  font-size: 1.2rem;
-  padding: 0.5rem;
-}
-
 .items q {
   margin-top: 1.5rem;
   font-size: 1.2rem;
@@ -266,11 +252,15 @@ button.btn-close {
   width: 150px !important;
   height: 50px !important;
 }
-.modal-content{
+.modal-content {
   background-color: white !important;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
   border-radius: 10px;
-  width: 2000px  !important;
+  width: 2000px !important;
+}
+.footer-class {
+  background-color: #114667;
+  color: white;
 }
 
 /********** RESPONSIVENESS **********/
@@ -285,14 +275,8 @@ button.btn-close {
   .img-header {
     max-width: 100%;
     height: auto;
+    margin-bottom: 2rem !important;
   }
-      margin-bottom: 2rem!important;
-    }
-    .trusted{
-      margin-top: 400px !important;
-    }
-   
-
 
   .home-title {
     font-size: calc(2.575rem + 2.9vw);
