@@ -69,7 +69,8 @@ section {
 }
 .navbar-brand {
   color: #114667 !important;
-  font-size: 10px !important;
+  font-size: 20px !important;
+  letter-spacing: 1px !important;
 }
 .dropdown-menu {
   background-color: #e8e7ee !important;
@@ -135,7 +136,6 @@ button.btn-close {
   mix-blend-mode: darken;
   max-width: 105% !important;
 }
-
 .abtimg {
   mix-blend-mode: darken;
   max-width: 125% !important;
@@ -206,6 +206,7 @@ button.btn-close {
   border-radius: 100%;
 }
 
+
 .stars {
   margin-bottom: 1.5rem;
 }
@@ -229,9 +230,7 @@ button.btn-close {
 }
 
 .contact-form-cont {
-  background-color: #ffffff;
   padding: 2rem 5rem 3rem 5rem;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 0.8rem;
 }
 .form-grid input,
@@ -264,11 +263,16 @@ button.btn-close {
   background-color: #2f4b9b !important;
   color: #e8e7ee !important;
   border: none !important;
+  width: 150px !important;
+  height: 50px !important;
+}
+.modal-content{
+  background-color: white !important;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
+  border-radius: 10px;
+  width: 2000px  !important;
 }
 
-.footer {
-  width: 100%;
-}
 /********** RESPONSIVENESS **********/
 
 /* For 480 Resolution - Laptop*/
@@ -282,6 +286,13 @@ button.btn-close {
     max-width: 100%;
     height: auto;
   }
+      margin-bottom: 2rem!important;
+    }
+    .trusted{
+      margin-top: 400px !important;
+    }
+   
+
 
   .home-title {
     font-size: calc(2.575rem + 2.9vw);
