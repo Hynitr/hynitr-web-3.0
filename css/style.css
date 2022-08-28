@@ -1,19 +1,19 @@
 @charset "UTF-8";
-@import url('../css/bootstrap.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url("../css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,600;1,700&display=swap");
 @font-face {
-    font-family: hynitrfont;
-    src: url(../font/Questrial-Regular.ttf);
-    font-weight: bold;
-  }
+  font-family: hynitrfont;
+  src: url(../font/Questrial-Regular.ttf);
+  font-weight: bold;
+}
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    transition: 0.5s ease-in;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: 0.5s ease-in;
 }
 
 ::scrollbar {
@@ -22,74 +22,72 @@
 
 /* Track */
 ::scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::scrollbar-thumb {
-  background: #eee; 
+  background: #eee;
 }
 
 /* Handle on hover */
 ::scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-     :root {
-        scroll-behavior: smooth;
-    }
+  :root {
+    scroll-behavior: smooth;
+  }
 }
 
-ul ,li {
-  margin:0;
-  padding:0;
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
 
 p {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: hynitrfont;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: hynitrfont;
 }
 
 body {
-  margin: 8px !important;
-  font-family: 'Nunito', sans-serif;
-  background-color: #e8e7ee;
+  font-family: "Nunito", sans-serif;
+  background-color: #ffffff;
 }
 
 section {
-
   margin: 0px;
 }
-.navbar{
-  background-color: #e8e7ee !important;
-  
+
+.navbar {
+  background-color: #ffffff !important;
 }
-.offcanvas{
-  background-color: #e8e7ee!important;
-  
+.offcanvas {
+  background-color: #ffffff !important;
 }
-.navbar-brand{
+.navbar-brand {
   color: #114667 !important;
-  font-size: 10px !important;
+  font-size: 20px !important;
+  letter-spacing: 1px !important;
 }
-.dropdown-menu{
-  background-color: #e8e7ee !important;
+.dropdown-menu {
+  background-color: #ffffff !important;
   border: none !important;
 }
-span .navbar-toggler-icon{
+span .navbar-toggler-icon {
   background-color: #114667 !important;
 }
-.navbar-toggler{
-    
+.navbar-toggler {
   width: 20px;
   height: 20px;
   position: relative;
   transition: 0.5s ease-in-out;
 }
 
-.toggler-icon{
+.toggler-icon {
   width: 100%;
   height: 3px;
   background-color: #114667;
@@ -104,53 +102,43 @@ span .navbar-toggler-icon{
 }
 
 /*when navigation is clicked*/
-.navbar-toggler .top-bar{
+.navbar-toggler .top-bar {
   margin-top: 7px;
-  transform: rotate(0deg)
+  transform: rotate(0deg);
 }
-.navbar-toggler .middle-bar{
+.navbar-toggler .middle-bar {
   margin-top: 15px;
   transform: rotate(0deg);
 }
-.navbar-toggler .bottom-bar{
- margin-top: 0px;
- transform: rotate(0deg);
+.navbar-toggler .bottom-bar {
+  margin-top: 0px;
+  transform: rotate(0deg);
 }
 /*state when navbar is collapsed*/
-button.btn-close{
+button.btn-close {
   color: #114667 !important;
 }
-.nav-item{
-  margin-left: 15px !important
+.nav-item {
+  margin-left: 15px !important;
 }
-.nav-link{
+.nav-link {
   color: #114667 !important;
 }
 #home {
-
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
-
 .home-title {
-
-    color: #114667 !important;
+  color: #114667 !important;
 }
 
 .img-header {
-
-    mix-blend-mode: darken;
-    max-width: 105% !important;
-}
-.abtimg {
-
   mix-blend-mode: darken;
-  max-width: 125% !important;
+  max-width: 105% !important;
 }
 
 .headerbtn1 {
-
   outline: black;
   border: 1px solid #114667 !important;
   font-size: 20px;
@@ -160,7 +148,6 @@ button.btn-close{
 }
 
 .headerbtn1:hover {
-  
   background-color: transparent;
 }
 
@@ -177,17 +164,17 @@ button.btn-close{
   color: white !important;
 }
 
-.card{
+.card {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
   border-radius: 10px !important;
 }
 
-.testimonials{
+.testimonials {
   border-radius: 10px;
   color: #333 !important;
 }
 
-.carousel-indicators{
+.carousel-indicators {
   position: relative;
   margin-top: 1.5rem;
 }
@@ -199,15 +186,16 @@ button.btn-close{
   height: 10px;
 }
 
-.carousel-control-prev, .carousel-control-next  {
+.carousel-control-prev,
+.carousel-control-next {
   color: #114667 !important;
 }
 
-.items{
+.items {
   max-width: 800px;
   margin: auto;
 }
-.items img{
+.items img {
   width: 100px;
   height: 100px;
   object-fit: cover;
@@ -215,7 +203,7 @@ button.btn-close{
   border-radius: 100%;
 }
 
-.items q{
+.items q {
   margin-top: 1.5rem;
   font-size: 1.2rem;
 }
@@ -225,13 +213,11 @@ button.btn-close{
 
 .contact-us-section {
   padding: 4rem 0;
-  
 }
 
 .contact-form-cont {
   padding: 2rem 5rem 3rem 5rem;
   border-radius: 0.8rem;
-  
 }
 .form-grid input,
 .form-grid textarea {
@@ -261,110 +247,84 @@ button.btn-close{
   font-weight: 700;
   cursor: pointer;
   background-color: #2f4b9b !important;
-  color:#e8e7ee !important;
+  color: #e8e7ee !important;
   border: none !important;
   width: 150px !important;
   height: 50px !important;
 }
-.modal-content{
+.modal-content {
   background-color: white !important;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
   border-radius: 10px;
-  width: 2000px  !important;
+  width: 2000px !important;
+}
+.footer-class {
+  background-color: #114667;
+  color: white;
 }
 
 /********** RESPONSIVENESS **********/
 
-/* For 480 Resolution - Laptop*/  
-@media only screen   
-and (min-device-width : 320px)   
-and (max-device-width : 480px)  
-{ /* STYLES GO HERE */}  
+/* For 480 Resolution - Laptop*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* STYLES GO HERE */
+}
 
+/* For 640 Resolution - mobile */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+  .img-header {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem !important;
+  }
 
-/* For 640 Resolution - mobile */  
-@media only screen   
-and (min-device-width : 360px)   
-and (max-device-width : 640px)  
-{
+  .home-title {
+    font-size: calc(2.575rem + 2.9vw);
+  }
 
-    .img-header {
+  #home {
+    padding-top: 0.5rem !important;
+  }
 
-        max-width: 100%;
-        height: auto;
-    }
+  #about {
+    padding-top: 0rem !important;
+  }
 
-    .home-title {
+  .featured {
+    margin-bottom: 2rem !important;
+  }
+  .contact-form-cont {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.8rem;
+  }
+}
 
-        font-size: calc(2.575rem + 2.9vw);
-    }
+/* For 1024 Resolution - laptop 1 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* STYLES GO HERE */
+}
 
-    #home {
-
-      padding-top: 0.5rem !important;
-    }
-
-    #about {
-
-      padding-top: 0rem !important;
-    }
-
-    .featured {
-
-      margin-bottom: 2rem!important;
-    }
-    .trusted{
-      margin-top: 400px !important;
-    }
-    .contact-form-cont {
-      background-color: #ffffff;
-      padding: 30px;
-      box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
-      border-radius: 0.8rem;
-    }    
-
-}  
-
-
-/* For 1024 Resolution - laptop 1 */  
-@media only screen   
-and (min-device-width : 768px)   
-and (max-device-width : 1024px)  
-{ /* STYLES GO HERE */}  
-
-
-/* For 1366 Resolution  -- laptop 2*/  
-@media only screen   
-and (min-width: 1030px)   
-and (max-width: 1366px)  
-{ /* STYLES GO HERE */} 
-
+/* For 1366 Resolution  -- laptop 2*/
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  /* STYLES GO HERE */
+}
 
 /** desktop screen */
-@media only screen   
-and (min-width: 1370px)  
-and (max-width: 1605px)  
-{ /* STYLES GO HERE */}  
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+  /* STYLES GO HERE */
+}
 
+/*Ipad Orientation : Landscape */
+@media only screen and (orientation: landscape) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
+  /* STYLES GO HERE */
+}
 
-/*Ipad Orientation : Landscape */  
-@media only screen   
-and (orientation : landscape)   
-and (min-device-pixel-ratio: 1)  
-and (min-device-width : 768px)   
-and (max-device-width : 1007px)   
-{ /* STYLES GO HERE */}
-
-
-
-/*ipad Orientation : Portrait */  
-@media only screen   
-and (orientation : portrait)   
-and (min-device-pixel-ratio: 1)   
-and (min-device-width : 768px)   
-and (max-device-width : 1007px)  
-{ /* STYLES GO HERE */}  
-
+/*ipad Orientation : Portrait */
+@media only screen and (orientation: portrait) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
+  /* STYLES GO HERE */
+}
 
 /**
 .navbar {
